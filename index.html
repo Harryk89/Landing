@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Steko</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		@font-face {
+		    font-family: SF-Display; /* Имя шрифта */
+		    src: url(fonts/SF-Pro-Display-Regular.otf); /* Путь к файлу со шрифтом */
+		}
+		@font-face {
+		    font-family: SF-Text; /* Имя шрифта */
+		    src: url(fonts/SF-Pro-Text-Regular.ttf); /* Путь к файлу со шрифтом */
+		}
+		@font-face {
+		    font-family: Avenir; /* Имя шрифта */
+		    src: url(fonts/AvenirNext.ttf); /* Путь к файлу со шрифтом */
+		}
+		@font-face {
+		    font-family: AvenirBold; /* Имя шрифта */
+		    src: url(fonts/AvenirNextCyr-Bold.ttf); /* Путь к файлу со шрифтом */
+		}
+		@font-face {
+		    font-family: Montserrat; /* Имя шрифта */
+		    src: url(fonts/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+		}
+		@font-face {
+		    font-family: MontserratBold; /* Имя шрифта */
+		    src: url(fonts/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+		}
+		@font-face {
+		    font-family: MontserratMedium; /* Имя шрифта */
+		    src: url(fonts/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
+		}
+	</style>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>	
+	<header>
+		<div class="layout-header">
+			<div id="nav-container">
+			    <div class="toggle-icon">
+			    	<span class="bar"></span>
+			    	<span class="bar"></span>
+			    	<span class="bar"></span>
+			    </div>
+			</div>
+			<div class="nav-logo">
+				<a href="">
+					<img id="biz_logo" src="img/steko-biz-logo.png">
+					<img id="logo_green" src="img/logo-green.png">
+				</a>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li>
+						<a class="navi" href="#list1">Home</a>
+					</li>
+					<li>
+						<a class="navi" href="#list2">Recource</a>
+					</li>
+					<li>
+						<a class="navi" href="#list3">About us</a>
+					</li>
+					<li>
+						<a class="navi" href="#list4">Product</a>
+					</li>
+					<li>
+						<a class="navi" href="#list8">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- <div class="nav-lang">
+				<a class="nav-lang-active" href="">En</a>
+				<a href="">Ar</a>
+			</div> -->
+		</div>					
+	</header>
+	<main class="main">
+		<div class="mob_menu">
+			<div class="mob-nav-lang">
+				<a class="mob-nav-lang-active" href="">En</a>
+				<a href="">Ar</a>
+			</div>
+			<div class="mob-logo">
+				<img src="img/logo-green.png">
+			</div>
+			<ul class="mob_ul">
+				<li>
+					<a class="mob_navi" href="#list1">Home</a>
+				</li>
+				<li>
+					<a class="mob_navi" href="#list2">Reference</a>
+				</li>
+				<li>
+					<a class="mob_navi" href="#list3">About us</a>
+				</li>
+				<li>
+					<a class="mob_navi" href="#list4">Product</a>
+				</li>
+				<li>
+					<a class="mob_navi" href="#list8">Contacts</a>
+				</li>
+			</ul>
+		</div>
+		<section id="list1" class="main-page">
+			<div class="screen-video">
+				<video class="vid" autoplay loop muted>
+					<source src="video/steko.v4.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="layout layout-main">
+				<div class="main-desc">
+					<div class="desc-left">
+						<h1>Steko</h1>
+						<div class="desc-link">
+							<a href="">
+							<!-- <img src="img/green-around.png"> -->
+							<p>Window company</p>
+						</a>
+						</div>						
+					</div>
+					<div class="desc-right">
+						<h2>perfect <br> windows <br> technology</h2>
+						<ul>
+							<li>
+								<p>- Innovative PVC profile</p>
+							</li>
+							<li>
+								<p>- Modern aluminum systems</p>
+							</li>
+							<li>
+								<p>- Exclusive multifunctional glass</p>
+							</li>
+							<li>
+								<p>- Reliable hardware</p>
+							</li>
+						</ul>
+					</div>					
+				</div>
+				<div class="desc-contact">
+						<h3>Export Department:</h3>
+						<p>steko@mail.com</p>
+						<p>+48 537 294 533</p>
+				</div>
+			</div>
+			<!-- <div class="navigat">
+				<div class="line one"></div>
+				<div class="line two"></div>
+				<div class="line three"></div>
+				<div class="line four"></div>
+				<div class="line five"></div>
+			</div> -->
+		</section>
+		<section id="list2" class="ceo">
+			<div class="layout layout-ceo">
+				<div class="name">
+					<h3>Sergei Polozhai</h3>
+					<p>General Director</p>
+					<img src="img/S.png">
+				</div>
+				<div class="foto-ceo">
+					<img id="icon_sv" src="img/polozhai.png">
+					<img id="icon_sv_mob" src="img/sv.png">
+				</div>
+				<div class="disc-ceo">
+					<h2>Reference</h2>
+					<p>Steko is a major manufacturer of PVC windows with an annual capacity of more than 1,000,000 designs. Large production, 12 years of experience, the use of high-quality components and modern technologies make us the leader in this industry.<br><br>
+					We offer not simple windows – we offer innovation.<br><br>
+					I kindly invite you to cooperate and guarantee that our cooperation will be successful and profitable.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="list3" class="about">
+			<div class="layout layout-about">
+				<div class="about-left">
+					<div class="count count-one">
+						<h6>Windows produced in 12 years</h6>
+						<p>43 000 000</p>						
+					</div>
+					<div class="count count-two">
+						<h6>Units per day</h6>
+						<p>5000</p>						
+					</div>
+					<div class="count count-three">						
+						<h6>12 years on the market</h6>
+						<p>12</p>
+					</div>
+				</div>
+				<div class="about-right">
+					<h2>About <span>Steko</span></h2>
+					<p>Steko is a modern, dynamic company. On the basis of our own production (more than 14,000 square meters) we create products that people need today - energy-efficient windows, doors and facades that meet international quality standards.</p>
+				</div>
+			</div>
+		</section>
+		<section id="list4" class="profil">
+			<div class="layout layout-profil">
+				<div class="center profil-s">
+					<div class="desc-profil">
+						<h2>Profile <span>S300</span></h2>
+						<p>Profile S300 suits for solving simple and complex problems in architecture and construction. Lightweight and durable profile has good performance characteristics, guarantees protection against increased temperature. The reasonable price of the profile system S300 will make it possible to implement large-scale projects and to glaze any object in a profitable way.</p>
+						<ul>
+							<li>
+								<p><span>Number of chambers:</span> &nbsp;3</p>
+							</li>
+							<li>
+								<p><span>Profile width: &nbsp;58мм</span></p>
+							</li>
+							<li>
+								<p><span>Frame height:</span> &nbsp;62мм</p>
+							</li>
+							<li>
+								<p><span>Glazed unit width:</span> &nbsp;24мм, 33мм</p>
+							</li>
+							<li>
+								<p><span>Outer wall thickness:</span> &nbsp;2,6мм</p>
+							</li>
+							<li>
+								<p><span>Soundproofing:</span> &nbsp;VDI 2719</p>
+							</li>
+							<li>
+								<p><span>Noise insulation class:</span> &nbsp;II до IV</p>
+							</li>
+							<li>
+								<p><span>Thermal transmittance:</span> &nbsp;R=0.63 m<sup>2</sup>K/Bт</p>
+							</li>
+						</ul>
+					</div>
+					<div class="profil-img pvc">
+						<img src="img/s300.png">
+					</div>
+				</div>				
+			</div>
+		</section>
+		<section id="list5" class="alum-profil">
+			<div class="layout layout-profil">
+				<div class="center center-profil">
+					<div class="alum-profil-img">
+						<img src="img/kmd70.png">
+					</div>
+					<div class="desc-alum-profil">
+						<h2>Aluminium <span>profile</span></h2>
+						<p>Aluminum constructions from Steko allow to embody any design decision, they are durable, resistant to corrosion, high temperatures, deformations and other environmental influences. Aluminum profile perfectly goes with other materials and can be implemented in any color or texture of wood.<br><br>
+						We work with world famous brands of aluminum profiles and components: Schuco, Reynaers, Aluprof, Alutech and today we offer:</p>
+						<ul>
+							<li>
+								<p>- front glazing</p>
+							</li>
+							<li>
+								<p>- sliding systems</p>
+							</li>
+							<li>
+								<p>- folding aluminum systems</p>
+							</li>
+							<li>
+								<p>- automatic doors and windows</p>
+							</li>
+							<li>
+								<p>- zenithal lanterns</p>
+							</li>							
+						</ul>
+					</div>					
+				</div>
+				<div class="bottom-block-right alum-block">
+					<p>technology design</p>
+				</div>
+			</div>
+		</section>
+		<!-- <section class="glass">
+			<div class="layout layout-profil">
+				<div class="center">
+					<div class="desc-profil">
+						<h2>Энергосберегающие стекло <span>i-Glass</span> Steko</h2>
+						<p>Энергосберегающее стекло i-glass в составе стеклопакета делает конструкцию энергоэффективной в целом. Установленное внутри помещения, это стекло работает как отражатель и помогает сохранять прохладу в доме. Энергосберегающее стекло i-glass подходит для остекления как металлопластиковыми, так алюминиевыми конструкциями.</p>				
+					</div>
+					<div class="profil-img glass-img">
+						<img src="img/iGlass.png">
+						<div class="icon cold-icon">
+							<img src="img/cold.png">
+						</div>
+						<div class="icon hot-icon">
+							<img src="img/hot.png">
+						</div>
+					</div>
+				</div>
+				<div class="bottom-block-left glass-block">
+					<p>for your comfort</p>
+				</div>	
+				195.13.199.232 leed.steko.com.ua			
+			</div>
+		</section> -->
+		<section id="list6" class="double-silver">
+			<div class="layout layout-profil">
+				<div class="center center-profil">
+					<div class="alum-profil-img double-silver-img">
+						<img src="img/iGlass.png">
+						<div class="icon cold-silver-icon">
+							<img src="img/cold.png">
+							<p>Keeps coolness</p>
+						</div>
+						<div class="icon time-silver-icon">
+							<img src="img/time.png">
+							<p>Protects from ultraviolet radiation</p>
+						</div>
+						<div class="icon sun-silver-icon">
+							<img src="img/sun.png">
+							<p>Transmits 72% of sunlight</p>
+						</div>
+					</div>
+					<div class="desc-alum-profil">
+						<h2>Multifuncional glass <span>Double Silver Steko</span></h2>
+						<p>Multifuncional glass Double Silver Steko is used for different purposes simultaneously. Thanks to special silver ions this glass:</p>
+						<ul>
+							<li>
+								<p>- protects from harmful ultraviolet radiation</p>
+							</li>
+							<li>
+								<p>- reflects heat energy, preventing overheating of the room</p>
+							</li>
+							<li>
+								<p>- keeps coolness indoors</p>
+							</li>
+							<li>
+								<p>- guarantees light transmission over 72%</p>
+							</li>
+							<li>
+								<p>- provides a comfortable microclimate</p>
+							</li>	
+							<li>
+								<p>- eliminates surfaces’ discoloration</p>
+							</li>
+							<li>
+								<p>- improves the look of the facade</p>
+							</li>						
+						</ul>
+						<br>
+						<p>The multifunctional glass Double Silver Steko is installed from the outside by its coating inside the glass unit. It is also used for any type of glazing.</p>						
+					</div>					
+				</div>
+				<div class="bottom-block-right double-silver-block">
+					<p>cold at summer</p>
+				</div>
+			</div>
+		</section>
+		<section id="list7" class="system">
+			<div class="layout layout-profil">
+				<div class="center">
+					<div class="desc-profil">
+						<h2><span>Sliding systems </span> from Steko</h2>
+						<p>Sliding systems from Steko provide an opportunity to make rational use of space, glaze large window and door aperture, guarantee tightness, sound insulation and coolness in the room while increasing the illuminated area. We offer two types of sliding systems:</p>
+						<ul>UPVC :
+							<li>
+								<p>- Tilt and Slide with Roto Patio hardware</p>
+							</li>
+							<li>
+								<p>- Sliding with Vorne hardware</p>
+							</li>							
+						</ul>
+						<ul>Aluminium:
+							<li>
+								<p>- lightweight of the profile PR-26 PROFILCO for creating small-sizestructures</p>
+							</li>
+							<li>
+								<p>- durable of  the profile PR-35 PROFILCO - for creating large-size structures</p>
+							</li>							
+							<li>
+								<p>- Schüco folding systems for creating sliding structures of any width and configuration</p>
+							</li>
+						</ul>
+					</div>
+					<div class="profil-img system-img">
+						<img src="img/window.png">
+					</div>
+				</div>	
+				<div class="bottom-block-left system-block">
+					<p>free movement</p>
+				</div>
+				<div class="bottom-block">
+					<img src="img/roto.png">
+					<img src="img/vorne.png">
+				</div>				
+			</div>
+		</section>
+	</main>
+	<footer id="list8">
+		<div class="layout layout-footer">
+			<div class="center center-footer">
+				<div class="footer-right">
+					<div class="adress">
+						<h2>Office</h2>
+						<div class="contact">
+							<p>Ukraine<br>
+								Dnipro, 11, Artilna str.
+							</p>
+							<p>Ukraine,<br> 
+								Lviv, Nadychi,<br>
+								3B Hrushevskoho str.
+							</p>
+						</div>
+					</div>
+					<div class="adress-contact">
+						<h2>Contact us</h2>
+						<div class="contact">							
+							<p>export@steko.com.ua <br><br>
+							+380 68 055 22 11
+							</p>							
+						</div>						
+					</div>
+				</div>
+				<div class="footer-left">
+					<h2>Messange us</h2>
+					<form id="form_pop" onsubmit="return false;">
+						<input type="text" name="name" placeholder="Name">
+						<input type="email" name="email" placeholder="Email">
+						<textarea name="message" placeholder="Message"></textarea>
+						<button>send</button>
+					</form>
+				</div>			
+			</div>
+		</div>	
+	</footer>	
+
+	<script src='js/main.js' ></script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <h1 style="text-align: center;">
+	Условия доставки и монтажа розничной сети Steko</h1>
+
+<p>
+	&nbsp;</p>
+
+<div>
+	<div>
+		<img alt="Доставка и монтаж" src="/dostavka%20i%20montazh.jpg" style="text-align: justify; width: 400px; height: 546px; float: right; margin-left: 20px; margin-right: 20px;" title="Доставка и монтаж" /></div>
+
+	<h2 style="text-align: justify;">
+		Доставка:</h2>
+</div>
+
+<div>
+	<p style="text-align: justify;">
+		<span style="font-size:14px;">Во всех крупных городах Украины, в том числе в тех, где представлены фирменные салоны Steko, компания осуществляет БЕСПЛАТНАЯ ДОСТАВКА с подъемом на этаж ДО КВАРТИРЫ ПОКУПАТЕЛЯ собственными грузчиками.&nbsp;</span></p>
+
+	<p style="text-align: justify;">
+		<span style="font-size:14px;">Информация о стоимости доставки по другим городам, а также правила оформления заказа продукции по телефону: 050 050 55 00</span></p>
+
+	<h2 style="text-align: justify;">
+		Монтаж:</h2>
+
+	<h3>
+		Простой:</h3>
+
+	<p style="text-align: justify;">
+		<span style="font-size:14px;">В монтаж входит: демонтаж старых конструкций, вынос старых конструкций на этаж. Монтаж стандартных конструкций в типовых помещениях. Стандартные конструкции монтируются в кирпичные, блочные, панельные дома при помощи анкерных пластин и монтажной пены без использования гидро- и пароизоляционных материалов.</span></p>
+
+	<h3 style="text-align: justify;">
+		Сложный:</h3>
+
+	<p style="text-align: justify;">
+		<span style="font-size: 14px; text-align: justify;">В монтаж входит: демонтаж металлопластиковых конструкций с сохранением их целостности (чтобы окно можно было еще куда-нибудь применить). Входные двери, которые ставятся не на анкерные пластины, а на анкера, конструкции собирающиеся через соединители и с расширителями. Монтаж через анкерное крепление с наличием козырьков, отливов, нащельников и т.д.&nbsp; Монтаж входных дверей с дверной створкой (с наличием доводчика). Монтаж МПК площадью более 4-х - 5-ти&nbsp; квадратных метров. Теплый монтаж с использованием внутренней ленты, внешней ленты, ПСУЛ. Работа на высоте.Монтаж нестандартных входных дверей, а также нестандартные конструкци.</span><span style="font-size: 14px; text-align: justify; white-space: pre;"> </span></p>
+
+	<p style="text-align: justify;">
+		<span style="font-size: 14px; text-align: justify;">Монтаж крупногабаритных сборных конструкций (эркерный разворот, статические соединители, расширители и т.п.), раздвижные системы.</span></p>
+
+	<h3 style="text-align: justify;">
+		Сверхсложный:</h3>
+
+	<p style="text-align: justify;">
+		<span style="font-size:14px;">Монтаж по ГОСТу, сварочные работы и вынос. Дополнительное " сбивание" стены, откосов, дополнительное утепление откосов. Монтаж фасадных изделий&nbsp; с использованием статических усилителей. Монтаж нестандартных конструкций (арки, трапеции, треугольники и т.д.) Монтаж изделий, расположенных на высоте (балконы,лоджии и т.д.) либо с использованием строительных лесов. Монтаж изделий через эркерное соединение с козырьками, отливами, нащельниками. Монтаж фасадных изделий с использованием статических усилителей. Монтаж дорогостоящих конструкций (нестандартной ламинации, СП с пленкой, фурнитуры под покраску).</span></p>
+
+	<p style="text-align: justify;">
+		&nbsp;</p>
+
+	<p style="text-align: justify;">
+		&nbsp;</p>
+
+	<table align="center" border="4" cellpadding="4" cellspacing="4" style="width: 700px;">
+		<tbody>
+			<tr>
+				<td style="width: 194px; text-align: center;">
+					Города</td>
+				<td style="width: 273px; text-align: center;">
+					МОНТАЖ цена за кв.м, грн</td>
+				<td style="width: 180px; text-align: center;">
+					Замер</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center; background-color: #cccccc;">
+					<span><em><strong>&nbsp; &nbsp; простой</strong></em></span></td>
+			</tr>
+			<tr>
+				<td style="width: 194px; text-align: center;">
+					Все города (кроме Киева)</td>
+				<td style="width: 273px; text-align: center;">
+					190</td>
+				<td style="width: 180px; text-align: center;">
+					100</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center; background-color: #cccccc;">
+					<span><strong><em>&nbsp; &nbsp;сложный</em></strong></span></td>
+			</tr>
+			<tr>
+				<td style="width: 194px; text-align: center;">
+					Все города (кроме Киева)</td>
+				<td style="width: 273px; text-align: center;">
+					250</td>
+				<td style="width: 180px; text-align: center;">
+					100</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center; background-color: #cccccc;">
+					<strong><em>&nbsp; &nbsp; сверхсложный</em></strong></td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center;">
+					<strong><span><span>Примечание: </span></span></strong><span><span>стоимость дополнительных работ при сверхсложном монтаже оговаривается индивидуально с заказчиком</span></span></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p style="text-align: justify;">
+		&nbsp;</p>
+
+	<table align="center" border="4" cellpadding="4" cellspacing="4" style="width: 700px;">
+		<tbody>
+			<tr>
+				<td style="width: 193px; text-align: center;">
+					Города</td>
+				<td style="width: 278px; text-align: center;">
+					МОНТАЖ цена за кв.м, грн</td>
+				<td style="width: 178px; text-align: center;">
+					Замер</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center; background-color: #cccccc;">
+					<em><strong>&nbsp; &nbsp; простой</strong></em></td>
+			</tr>
+			<tr>
+				<td style="width: 193px; text-align: center;">
+					&nbsp;Киева</td>
+				<td style="width: 278px; text-align: center;">
+					250</td>
+				<td style="width: 178px; text-align: center;">
+					200</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center; background-color: #cccccc;">
+					<strong><em>&nbsp; &nbsp; сложный</em></strong></td>
+			</tr>
+			<tr>
+				<td style="width: 193px; text-align: center;">
+					Киева</td>
+				<td style="width: 278px; text-align: center;">
+					320</td>
+				<td style="width: 178px; text-align: center;">
+					200</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center; background-color: #cccccc;">
+					<strong><em>&nbsp; &nbsp;сверхсложный</em></strong></td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width: 193px; text-align: center;">
+					<strong><span><span>Примечание: </span></span></strong><span><span>стоимость дополнительных работ при сверхсложном монтаже оговаривается индивидуально с заказчиком</span></span></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>
+		&nbsp;</p>
+
+	<p>
+		&nbsp;</p>
+
+	<p style="text-align: center;">
+		<iframe allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/jpdd5fIQ-18" width="854"></iframe></p>
+
+	<p style="text-align: center;">
+		<img src="http://www.steko.com.ua/img/dostavka_i_montag.jpg" style="max-width: 490px;" /></p>
+</div> -->
+
+
